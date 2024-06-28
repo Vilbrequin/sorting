@@ -5,6 +5,7 @@ This repository contains implementations of various sorting algorithms using C l
 ## Table of Contents
 - [Selection Sort](#selection-sort)
 - [Bubble Sort](#bubble-sort)
+- [Insertion Sort](#insertion-sort)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -39,6 +40,26 @@ Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps 
 3. If the first element is greater than the second, swap them.
 4. Move to the next pair of elements and repeat the process until the end of the list.
 5. Repeat the entire process for the remaining elements until the list is sorted.
+
+### Time Complexity
+- **Best Case:** O(n)
+- **Average Case:** O(n²)
+- **Worst Case:** O(n²)
+
+### Space Complexity
+- **Overall:** O(1) (constant space)
+
+## Insertion Sort
+
+### Definition
+Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. However, it provides several advantages: simple implementation, efficient for (quite) small data sets, adaptive, stable, in-place, and online.
+
+### Pseudo Algorithm
+1. Iterate from the second element to the end of the array.
+2. For each iteration, select the element and find its correct position in the sorted part of the array.
+3. Shift all the elements in the sorted part that are greater than the selected element to the right.
+4. Insert the selected element at its correct position.
+5. Repeat until the entire array is sorted.
 
 ### Time Complexity
 - **Best Case:** O(n)
