@@ -8,6 +8,8 @@ This repository contains implementations of various sorting algorithms using C l
 - [Insertion Sort](#insertion-sort)
 - [Merge Sort](#merge-sort)
 - [Quick Sort](#quick-sort)
+- [Heap Sort](#heap-sort)
+- [Comparative Table of Sorting Algorithms](#comparative-table-of-sorting-algorithms)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -149,6 +151,17 @@ Heap Sort is a comparison-based sorting technique based on a binary heap data st
 
 ### Video Explanation
 For a detailed video explanation of the Heap Sort algorithm, you can watch this [YouTube video](https://www.youtube.com/watch?v=HqPJF2L5h9U).
+
+## Comparative Table of Sorting Algorithms
+
+| Algorithm      | Best Case Time Complexity | Average Case Time Complexity | Worst Case Time Complexity | Space Complexity  |
+|----------------|----------------------------|------------------------------|----------------------------|--------------------|
+| Selection Sort | O(n²)                      | O(n²)                        | O(n²)                      | O(1)               |
+| Bubble Sort    | O(n)                       | O(n²)                        | O(n²)                      | O(1)               |
+| Insertion Sort | O(n)                       | O(n²)                        | O(n²)                      | O(1)               |
+| Merge Sort     | O(n log n)                 | O(n log n)                   | O(n log n)                 | O(n)               |
+| Quick Sort     | O(n log n)                 | O(n log n)                   | O(n²)                      | O(log n)           |
+| Heap Sort      | O(n log n)                 | O(n log n)                   | O(n log n)                 | O(1)               |
 
 
 ## Contributing

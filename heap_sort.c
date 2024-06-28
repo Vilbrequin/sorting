@@ -48,10 +48,12 @@ void heap_sort(int* arr, int size){
     }
 
     build_max_heap(arr, size);
+    
     int last = size -1;
     int tmp = arr[last];
     arr[last] = arr[0];
     arr[0] = tmp;
+    
     heap_sort(arr, last);
 }
 
