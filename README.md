@@ -7,6 +7,7 @@ This repository contains implementations of various sorting algorithms using C l
 - [Bubble Sort](#bubble-sort)
 - [Insertion Sort](#insertion-sort)
 - [Merge Sort](#merge-sort)
+- [Quick Sort](#quick-sort)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -31,7 +32,7 @@ Selection Sort is an in-place comparison sorting algorithm. It has an O(n²) tim
 - **Overall:** O(1) (constant space)
 
 ### Video Explanation
-For a detailed video explanation of the Selection Sort algorithm, you can watch this [YouTube video](https://youtu.be/EwjnF7rFLns?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8).
+For a detailed video explanation of the Selection Sort algorithm, you can watch this [YouTube video](https://youtu.be/EwjnF7rFLns).
 
 ## Bubble Sort
 
@@ -54,7 +55,7 @@ Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps 
 - **Overall:** O(1) (constant space)
 
 ### Video Explanation
-For a detailed video explanation of the Bubble Sort algorithm, you can watch this [YouTube video](https://youtu.be/Dv4qLJcxus8?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8).
+For a detailed video explanation of the Bubble Sort algorithm, you can watch this [YouTube video](https://youtu.be/Dv4qLJcxus8).
 
 ## Insertion Sort
 
@@ -77,7 +78,7 @@ Insertion Sort is a simple sorting algorithm that builds the final sorted array 
 - **Overall:** O(1) (constant space)
 
 ### Video Explanation
-For a detailed video explanation of the Insertion Sort algorithm, you can watch this [YouTube video](https://youtu.be/8mJ-OhcfpYg?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8).
+For a detailed video explanation of the Insertion Sort algorithm, you can watch this [YouTube video](https://youtu.be/8mJ-OhcfpYg).
 
 ## Merge Sort
 
@@ -100,7 +101,55 @@ Merge Sort is a divide-and-conquer algorithm that was invented by John von Neuma
 - **Overall:** O(n) (due to the use of auxiliary arrays)
 
 ### Video Explanation
-For a detailed video explanation of the Merge Sort algorithm, you can watch this [YouTube video](https://youtu.be/3j0SWDX4AtU?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8).
+For a detailed video explanation of the Merge Sort algorithm, you can watch this [YouTube video](https://youtu.be/3j0SWDX4AtU).
+
+## Quick Sort
+
+### Definition
+Quick Sort is an efficient, in-place, divide-and-conquer sorting algorithm. It was developed by Tony Hoare in 1959. Quick Sort works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
+
+### Pseudo Algorithm
+1. Pick a pivot element from the array.
+2. Partition the array into two sub-arrays:
+   - Elements less than the pivot
+   - Elements greater than the pivot
+3. Recursively apply the above steps to the sub-arrays.
+4. Combine the sub-arrays to get the final sorted array.
+
+
+### Time Complexity
+- **Best Case:** O(n log n)
+- **Average Case:** O(n log n)
+- **Worst Case:** O(n²)
+
+### Space Complexity
+- **Overall:** O(log n) (due to recursive stack space)
+
+### Video Explanation
+For a detailed video explanation of the Quick Sort algorithm, you can watch this [YouTube video](https://youtu.be/Vtckgz38QHs).
+
+## Heap Sort
+
+### Definition
+Heap Sort is a comparison-based sorting technique based on a binary heap data structure. It is similar to selection sort where we first find the maximum element and place it at the end. We repeat the same process for the remaining elements.
+
+### Pseudo Algorithm
+1. Build a max heap from the input data.
+2. At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of the heap by one. Finally, heapify the root.
+3. Repeat step 2 while the size of the heap is greater than 1.
+
+
+### Time Complexity
+- **Best Case:** O(n log n)
+- **Average Case:** O(n log n)
+- **Worst Case:** O(n log n)
+
+### Space Complexity
+- **Overall:** O(1) (in-place)
+
+### Video Explanation
+For a detailed video explanation of the Heap Sort algorithm, you can watch this [YouTube video](https://www.youtube.com/watch?v=HqPJF2L5h9U).
+
 
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any sorting algorithms you wish to add.
