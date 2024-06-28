@@ -6,6 +6,7 @@ This repository contains implementations of various sorting algorithms using C l
 - [Selection Sort](#selection-sort)
 - [Bubble Sort](#bubble-sort)
 - [Insertion Sort](#insertion-sort)
+- [Merge Sort](#merge-sort)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -29,6 +30,9 @@ Selection Sort is an in-place comparison sorting algorithm. It has an O(n²) tim
 ### Space Complexity
 - **Overall:** O(1) (constant space)
 
+### Video Explanation
+For a detailed video explanation of the Selection Sort algorithm, you can watch this [YouTube video](https://youtu.be/EwjnF7rFLns?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8).
+
 ## Bubble Sort
 
 ### Definition
@@ -49,6 +53,9 @@ Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps 
 ### Space Complexity
 - **Overall:** O(1) (constant space)
 
+### Video Explanation
+For a detailed video explanation of the Bubble Sort algorithm, you can watch this [YouTube video](https://youtu.be/Dv4qLJcxus8?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8).
+
 ## Insertion Sort
 
 ### Definition
@@ -68,6 +75,32 @@ Insertion Sort is a simple sorting algorithm that builds the final sorted array 
 
 ### Space Complexity
 - **Overall:** O(1) (constant space)
+
+### Video Explanation
+For a detailed video explanation of the Insertion Sort algorithm, you can watch this [YouTube video](https://youtu.be/8mJ-OhcfpYg?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8).
+
+## Merge Sort
+
+### Definition
+Merge Sort is a divide-and-conquer algorithm that was invented by John von Neumann in 1945. It divides the input array into two halves, recursively sorts both halves, and then merges the sorted halves to produce the sorted array.
+
+### Pseudo Algorithm
+1. If the array has one or zero elements, it is already sorted. Otherwise:
+2. Divide the unsorted list into two approximately equal parts.
+3. Recursively sort each part.
+4. Merge the two sorted parts into a single sorted list.
+
+
+### Time Complexity
+- **Best Case:** O(n log n)
+- **Average Case:** O(n log n)
+- **Worst Case:** O(n log n)
+
+### Space Complexity
+- **Overall:** O(n) (due to the use of auxiliary arrays)
+
+### Video Explanation
+For a detailed video explanation of the Merge Sort algorithm, you can watch this [YouTube video](https://youtu.be/3j0SWDX4AtU?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8).
 
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any sorting algorithms you wish to add.
