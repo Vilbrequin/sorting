@@ -4,6 +4,7 @@ This repository contains implementations of various sorting algorithms using C l
 
 ## Table of Contents
 - [Selection Sort](#selection-sort)
+- [Bubble Sort](#bubble-sort)
 - [Contributing](#contributing)
 - [License](#license)
 
