@@ -27,6 +27,26 @@ Selection Sort is an in-place comparison sorting algorithm. It has an O(n²) tim
 ### Space Complexity
 - **Overall:** O(1) (constant space)
 
+## Bubble Sort
+
+### Definition
+Bubble Sort is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted. It gets its name because smaller elements "bubble" to the top of the list.
+
+### Pseudo Algorithm
+1. Start at the beginning of the list.
+2. Compare the first two elements.
+3. If the first element is greater than the second, swap them.
+4. Move to the next pair of elements and repeat the process until the end of the list.
+5. Repeat the entire process for the remaining elements until the list is sorted.
+
+### Time Complexity
+- **Best Case:** O(n)
+- **Average Case:** O(n²)
+- **Worst Case:** O(n²)
+
+### Space Complexity
+- **Overall:** O(1) (constant space)
+
 ## Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any sorting algorithms you wish to add.
 
